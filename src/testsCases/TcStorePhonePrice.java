@@ -44,7 +44,7 @@ public class TcStorePhonePrice extends Reporting {
 		
 		for (int j = 0; j <= listPhonePrice.size() - 1; j++) {
 			System.out.println(j + " price is : " + listPhonePrice.get(j).getText());
-			alPhonePrice.add(j, listPhoneName.get(j).getText().toString());
+			alPhonePrice.add(j, listPhonePrice.get(j).getText().toString());
 		}
 		
 		WriteJSONFile writeJSONFile = new WriteJSONFile();
