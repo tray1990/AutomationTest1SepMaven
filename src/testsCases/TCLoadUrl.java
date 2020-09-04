@@ -17,7 +17,7 @@ public class TCLoadUrl extends Reporting {
 
 	DriverWorks driverWorks = new DriverWorks();
 	HomePage homePage = new HomePage();
-	ReadExcelFile ref = new ReadExcelFile(); 
+	ReadExcelFile ref = new ReadExcelFile();
 
 	@Test
 	public void urlLunch() throws Exception {
@@ -26,25 +26,25 @@ public class TCLoadUrl extends Reporting {
 		test = extent.createTest("UrlLunch");
 		driverWorks.loadUrl(ref.readFromExcel(ConstantValues.sExcelPath, ConstantValues.sExcelSheetName, 1, 1));
 		driverWorks.implicitWait(3);
-//		driverWorks.takeSnapShot(true, "urlLunch");
+		// driverWorks.takeSnapShot(true, "urlLunch");
 
 	}
-	
-	@Test (priority = 2)
+
+	@Test(priority = 2)
 	public void afterPopUpClose() {
 		System.out.println("Hello afterPopUpClose");
 		test = extent.createTest("AfterPopUpClose");
 		homePage.closePopUp(ConstantValues.sClosePopXpath);
-//		driverWorks.takeSnapShot(true, "closePopUp");
+		// driverWorks.takeSnapShot(true, "closePopUp");
 	}
-	
-	@Test (priority = 3)
+
+	@Test(priority = 3)
 	public void searchItem() throws Exception {
 		System.out.println("Hello searchItem");
 		homePage.searchItem(ConstantValues.sSearchItemXpath, ConstantValues.sSearchItemName);
 		driverWorks.implicitWait(4);
-//		driverWorks.takeSnapShot(true, "searchItem");
-		
+		// driverWorks.takeSnapShot(true, "searchItem");
+
 		test = extent.createTest("searchItem");
 	}
 }

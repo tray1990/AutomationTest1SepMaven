@@ -16,7 +16,7 @@ import utils.Reporting;
 public class ClosingAutomation extends Reporting {
 
 	DriverWorks driverWorks = new DriverWorks();
-//	ExtentReportsClass extendReports = new ExtentReportsClass();
+	// ExtentReportsClass extendReports = new ExtentReportsClass();
 
 	@Test(enabled = false)
 	public void close() {
@@ -32,6 +32,5 @@ public class ClosingAutomation extends Reporting {
 		driverWorks.close();
 		driverWorks.quitDriver();
 	}
-	
-	
+
 }

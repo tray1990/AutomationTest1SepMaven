@@ -34,22 +34,22 @@ public class TcStorePhonePrice extends Reporting {
 		List<WebElement> listPhoneName = driverWorks.returnAllElement("//div[@class = '_3wU53n']");
 		List<WebElement> listPhonePrice = driverWorks.returnAllElement("//div[@class = '_1vC4OE _2rQ-NK']");
 		ArrayList<String> alPhoneName = new ArrayList<String>();
-		ArrayList<String> alPhonePrice = new ArrayList<String>();;
+		ArrayList<String> alPhonePrice = new ArrayList<String>();
+		;
 
 		for (int i = 0; i <= listPhoneName.size() - 1; i++) {
 
 			System.out.println(i + " phone Name is : " + listPhoneName.get(i).getText());
 			alPhoneName.add(i, listPhoneName.get(i).getText().toString());
 		}
-		
+
 		for (int j = 0; j <= listPhonePrice.size() - 1; j++) {
 			System.out.println(j + " price is : " + listPhonePrice.get(j).getText());
 			alPhonePrice.add(j, listPhonePrice.get(j).getText().toString());
 		}
-		
+
 		WriteJSONFile writeJSONFile = new WriteJSONFile();
 		writeJSONFile.jsonWrite(alPhoneName, alPhonePrice);
-
 	}
 
 }

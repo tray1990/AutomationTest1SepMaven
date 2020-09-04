@@ -32,7 +32,8 @@ public class FilterApply {
 		}
 	}
 
-	public void selectMoreFilter(String sItemName, String sParentPanelXpath, String sItemXpath) throws NoSuchElementException {
+	public void selectMoreFilter(String sItemName, String sParentPanelXpath, String sItemXpath)
+			throws NoSuchElementException {
 		List<WebElement> list = driverWorks.returnAllElement(sParentPanelXpath);
 		for (int i = 0; i <= list.size() - 1; i++) {
 
