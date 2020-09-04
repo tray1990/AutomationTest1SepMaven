@@ -27,7 +27,7 @@ public class WriteJSONFile {
 				System.out.println(alPhoneName.get(i)+ " Price is : "+ alPhoneName.get(j));
 //				jsonArray.put(alPhoneName.get(i)+ " Price is : "+ alPhoneName.get(j));
 //				jsonObjMobile.put(alPhoneName.get(i)+ " Price is : ", alPhoneName.get(j));
-				jsonObjMobile.put(alPhoneName.get(i), alPhoneName.get(j));
+				jsonObjMobile.put(alPhoneName.get(i), alPhonePrice.get(j));
 			}
 		}
 		jsonArray.put(jsonObjMobile);
