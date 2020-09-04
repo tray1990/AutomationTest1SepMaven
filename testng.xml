@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="QA Automation Testing Assignment" verbose="2"
+	parallel="none">
+
+	<test name="Starting">
+		<classes>
+			<class name="start.StartingAutomation" />
+		</classes>
+	</test>
+
+	<test name="LoadUrl">
+		<classes> 
+			<class name="testsCases.TCLoadUrl" />
+		</classes>
+	</test>
+	
+	<test name="ApplyFilter">
+		<classes>
+			<class name="testsCases.TcApplyFilter" />
+		</classes>
+	</test>
+	
+	<test name="StorePhonePrice">
+		<classes>
+			<class name="testsCases.TcStorePhonePrice" />
+		</classes>
+	</test>
+
+	<test name="Closing" time-out="50000">
+		<classes>
+			<class name="end.ClosingAutomation">
+
+			</class>
+		</classes>
+	</test>
+
+
+</suite>
