@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="1" total="11" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="QA Automation Testing Assignment" duration-ms="67358" started-at="2020-09-04T05:41:17Z" finished-at="2020-09-04T05:42:24Z">
+  <suite name="QA Automation Testing Assignment" duration-ms="73690" started-at="2020-09-04T08:12:16Z" finished-at="2020-09-04T08:13:30Z">
     <groups>
     </groups>
-    <test name="Starting" duration-ms="10083" started-at="2020-09-04T05:41:17Z" finished-at="2020-09-04T05:41:27Z">
+    <test name="Starting" duration-ms="8610" started-at="2020-09-04T08:12:16Z" finished-at="2020-09-04T08:12:25Z">
       <class name="start.StartingAutomation">
-        <test-method status="PASS" signature="start()[pri:0, instance:start.StartingAutomation@7e0b0338]" name="start" duration-ms="9837" started-at="2020-09-04T05:41:17Z" finished-at="2020-09-04T05:41:26Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:start.StartingAutomation@7e0b0338]" name="start" duration-ms="8449" started-at="2020-09-04T08:12:16Z" finished-at="2020-09-04T08:12:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="actions(org.testng.ITestResult)[pri:0, instance:start.StartingAutomation@7e0b0338]" name="actions" is-config="true" duration-ms="4" started-at="2020-09-04T05:41:26Z" finished-at="2020-09-04T05:41:26Z">
+        <test-method status="PASS" signature="actions(org.testng.ITestResult)[pri:0, instance:start.StartingAutomation@7e0b0338]" name="actions" is-config="true" duration-ms="2" started-at="2020-09-04T08:12:24Z" finished-at="2020-09-04T08:12:24Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actions -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:start.StartingAutomation@7e0b0338]" name="getResult" is-config="true" duration-ms="224" started-at="2020-09-04T05:41:26Z" finished-at="2020-09-04T05:41:27Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:start.StartingAutomation@7e0b0338]" name="getResult" is-config="true" duration-ms="142" started-at="2020-09-04T08:12:24Z" finished-at="2020-09-04T08:12:25Z">
           <params>
             <param index="0">
               <value>
@@ -35,13 +35,13 @@
         </test-method> <!-- getResult -->
       </class> <!-- start.StartingAutomation -->
     </test> <!-- Starting -->
-    <test name="LoadUrl" duration-ms="11028" started-at="2020-09-04T05:41:27Z" finished-at="2020-09-04T05:41:38Z">
+    <test name="LoadUrl" duration-ms="19632" started-at="2020-09-04T08:12:25Z" finished-at="2020-09-04T08:12:44Z">
       <class name="testsCases.TCLoadUrl">
-        <test-method status="PASS" signature="urlLunch()[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="urlLunch" duration-ms="9224" started-at="2020-09-04T05:41:27Z" finished-at="2020-09-04T05:41:36Z">
+        <test-method status="PASS" signature="urlLunch()[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="urlLunch" duration-ms="17196" started-at="2020-09-04T08:12:25Z" finished-at="2020-09-04T08:12:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLunch -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="getResult" is-config="true" duration-ms="288" started-at="2020-09-04T05:41:36Z" finished-at="2020-09-04T05:41:36Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="getResult" is-config="true" duration-ms="335" started-at="2020-09-04T08:12:42Z" finished-at="2020-09-04T08:12:42Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterPopUpClose()[pri:2, instance:testsCases.TCLoadUrl@6f1fba17]" name="afterPopUpClose" duration-ms="316" started-at="2020-09-04T05:41:36Z" finished-at="2020-09-04T05:41:37Z">
+        <test-method status="PASS" signature="afterPopUpClose()[pri:2, instance:testsCases.TCLoadUrl@6f1fba17]" name="afterPopUpClose" duration-ms="456" started-at="2020-09-04T08:12:42Z" finished-at="2020-09-04T08:12:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterPopUpClose -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="getResult" is-config="true" duration-ms="232" started-at="2020-09-04T05:41:37Z" finished-at="2020-09-04T05:41:37Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="getResult" is-config="true" duration-ms="328" started-at="2020-09-04T08:12:43Z" finished-at="2020-09-04T08:12:43Z">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="searchItem()[pri:3, instance:testsCases.TCLoadUrl@6f1fba17]" name="searchItem" duration-ms="648" started-at="2020-09-04T05:41:37Z" finished-at="2020-09-04T05:41:37Z">
+        <test-method status="PASS" signature="searchItem()[pri:3, instance:testsCases.TCLoadUrl@6f1fba17]" name="searchItem" duration-ms="728" started-at="2020-09-04T08:12:43Z" finished-at="2020-09-04T08:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItem -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="getResult" is-config="true" duration-ms="306" started-at="2020-09-04T05:41:37Z" finished-at="2020-09-04T05:41:38Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TCLoadUrl@6f1fba17]" name="getResult" is-config="true" duration-ms="583" started-at="2020-09-04T08:12:44Z" finished-at="2020-09-04T08:12:44Z">
           <params>
             <param index="0">
               <value>
@@ -84,13 +84,13 @@
         </test-method> <!-- getResult -->
       </class> <!-- testsCases.TCLoadUrl -->
     </test> <!-- LoadUrl -->
-    <test name="ApplyFilter" duration-ms="41941" started-at="2020-09-04T05:41:38Z" finished-at="2020-09-04T05:42:20Z">
+    <test name="ApplyFilter" duration-ms="41202" started-at="2020-09-04T08:12:44Z" finished-at="2020-09-04T08:13:25Z">
       <class name="testsCases.TcApplyFilter">
-        <test-method status="PASS" signature="selectMinRangeFilter()[pri:1, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectMinRangeFilter" duration-ms="1942" started-at="2020-09-04T05:41:38Z" finished-at="2020-09-04T05:41:40Z">
+        <test-method status="PASS" signature="selectMinRangeFilter()[pri:1, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectMinRangeFilter" duration-ms="1823" started-at="2020-09-04T08:12:44Z" finished-at="2020-09-04T08:12:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMinRangeFilter -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="184" started-at="2020-09-04T05:41:40Z" finished-at="2020-09-04T05:41:40Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="163" started-at="2020-09-04T08:12:46Z" finished-at="2020-09-04T08:12:46Z">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="selectMaxRangeFilter()[pri:2, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectMaxRangeFilter" duration-ms="655" started-at="2020-09-04T05:41:40Z" finished-at="2020-09-04T05:41:40Z">
+        <test-method status="PASS" signature="selectMaxRangeFilter()[pri:2, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectMaxRangeFilter" duration-ms="690" started-at="2020-09-04T08:12:46Z" finished-at="2020-09-04T08:12:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMaxRangeFilter -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="139" started-at="2020-09-04T05:41:40Z" finished-at="2020-09-04T05:41:41Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="194" started-at="2020-09-04T08:12:47Z" finished-at="2020-09-04T08:12:47Z">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="selectRam()[pri:3, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectRam" duration-ms="1246" started-at="2020-09-04T05:41:41Z" finished-at="2020-09-04T05:41:42Z">
+        <test-method status="PASS" signature="selectRam()[pri:3, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectRam" duration-ms="680" started-at="2020-09-04T08:12:47Z" finished-at="2020-09-04T08:12:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRam -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="263" started-at="2020-09-04T05:41:42Z" finished-at="2020-09-04T05:41:42Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="172" started-at="2020-09-04T08:12:48Z" finished-at="2020-09-04T08:12:48Z">
           <params>
             <param index="0">
               <value>
@@ -131,11 +131,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="selectProcessor()[pri:4, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectProcessor" duration-ms="37348" started-at="2020-09-04T05:41:42Z" finished-at="2020-09-04T05:42:19Z">
+        <test-method status="PASS" signature="selectProcessor()[pri:4, instance:testsCases.TcApplyFilter@3b0143d3]" name="selectProcessor" duration-ms="37215" started-at="2020-09-04T08:12:48Z" finished-at="2020-09-04T08:13:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProcessor -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="153" started-at="2020-09-04T05:42:19Z" finished-at="2020-09-04T05:42:20Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcApplyFilter@3b0143d3]" name="getResult" is-config="true" duration-ms="258" started-at="2020-09-04T08:13:25Z" finished-at="2020-09-04T08:13:25Z">
           <params>
             <param index="0">
               <value>
@@ -148,13 +148,13 @@
         </test-method> <!-- getResult -->
       </class> <!-- testsCases.TcApplyFilter -->
     </test> <!-- ApplyFilter -->
-    <test name="StorePhonePrice" duration-ms="953" started-at="2020-09-04T05:42:20Z" finished-at="2020-09-04T05:42:21Z">
+    <test name="StorePhonePrice" duration-ms="727" started-at="2020-09-04T08:13:25Z" finished-at="2020-09-04T08:13:26Z">
       <class name="testsCases.TcStorePhonePrice">
-        <test-method status="PASS" signature="storePhoneName()[pri:0, instance:testsCases.TcStorePhonePrice@3a5ed7a6]" name="storePhoneName" duration-ms="835" started-at="2020-09-04T05:42:20Z" finished-at="2020-09-04T05:42:20Z">
+        <test-method status="PASS" signature="storePhoneName()[pri:0, instance:testsCases.TcStorePhonePrice@3a5ed7a6]" name="storePhoneName" duration-ms="591" started-at="2020-09-04T08:13:25Z" finished-at="2020-09-04T08:13:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storePhoneName -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcStorePhonePrice@3a5ed7a6]" name="getResult" is-config="true" duration-ms="117" started-at="2020-09-04T05:42:20Z" finished-at="2020-09-04T05:42:21Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testsCases.TcStorePhonePrice@3a5ed7a6]" name="getResult" is-config="true" duration-ms="135" started-at="2020-09-04T08:13:26Z" finished-at="2020-09-04T08:13:26Z">
           <params>
             <param index="0">
               <value>
@@ -167,29 +167,29 @@
         </test-method> <!-- getResult -->
       </class> <!-- testsCases.TcStorePhonePrice -->
     </test> <!-- StorePhonePrice -->
-    <test name="Closing" duration-ms="3293" started-at="2020-09-04T05:42:21Z" finished-at="2020-09-04T05:42:24Z">
+    <test name="Closing" duration-ms="3449" started-at="2020-09-04T08:13:26Z" finished-at="2020-09-04T08:13:30Z">
       <class name="end.ClosingAutomation">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="setUp" is-config="true" duration-ms="173" started-at="2020-09-04T05:41:16Z" finished-at="2020-09-04T05:41:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="setUp" is-config="true" duration-ms="169" started-at="2020-09-04T08:12:16Z" finished-at="2020-09-04T08:12:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="quit()[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="quit" duration-ms="3287" started-at="2020-09-04T05:42:21Z" finished-at="2020-09-04T05:42:24Z">
+        <test-method status="FAIL" signature="quit()[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="quit" duration-ms="3431" started-at="2020-09-04T08:13:26Z" finished-at="2020-09-04T08:13:30Z">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'TARIT', ip: '192.168.43.131', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 6428, moz:profile: C:\Users\Tray\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 20505dd4-bcca-4b4c-ab92-d2567732cd46]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 15008, moz:profile: C:\Users\Tray\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b1a2e890-beca-463c-bde6-61447c5b199f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'TARIT', ip: '192.168.43.131', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 6428, moz:profile: C:\Users\Tray\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 20505dd4-bcca-4b4c-ab92-d2567732cd46
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 15008, moz:profile: C:\Users\Tray\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b1a2e890-beca-463c-bde6-61447c5b199f
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -222,7 +222,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-04T05:42:24Z" finished-at="2020-09-04T05:42:24Z">
+        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="getResult" is-config="true" duration-ms="8" started-at="2020-09-04T08:13:30Z" finished-at="2020-09-04T08:13:30Z">
           <params>
             <param index="0">
               <value>
@@ -283,7 +283,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="tearDown" is-config="true" duration-ms="899" started-at="2020-09-04T05:42:24Z" finished-at="2020-09-04T05:42:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:end.ClosingAutomation@7b49cea0]" name="tearDown" is-config="true" duration-ms="226" started-at="2020-09-04T08:13:30Z" finished-at="2020-09-04T08:13:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
